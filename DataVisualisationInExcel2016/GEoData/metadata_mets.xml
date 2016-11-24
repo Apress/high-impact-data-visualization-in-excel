@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mets:METS xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/TR/xlink/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dim="http://www.dspace.org/xmlns/dspace/dim" OBJEDIT="/admin/item?itemID=91" OBJID="/handle/10672/50" PROFILE="DSPACE METS SIP Profile 1.0" LABEL="DSpace Item" ID="hdl:10672/50">
+<mets:dmdSec GROUPID="group_dmd_0" ID="dmd_1">
+<mets:mdWrap MDTYPE="OTHER" OTHERMDTYPE="DIM">
+<mets:xmlData>
+<dim:dim dspaceType="ITEM">
+<dim:field element="contributor" language="" mdschema="dc">McGarva, Guy</dim:field>
+<dim:field element="contributor" qualifier="other" language="en" mdschema="dc">University of Edinburgh</dim:field>
+<dim:field element="coverage" qualifier="spatial" language="en" mdschema="dc">northlimit=55.744;eastlimit=2.0792;southlimit=49.8633;westlimit=-6.4169;</dim:field>
+<dim:field element="coverage" qualifier="spatial" language="en" mdschema="dc">England</dim:field>
+<dim:field element="coverage" qualifier="temporal" language="" mdschema="dc">2009-03-09</dim:field>
+<dim:field element="date" qualifier="accessioned" language="" mdschema="dc">2010-07-20T13:56:36Z</dim:field>
+<dim:field element="date" qualifier="available" language="" mdschema="dc">2010-07-20T13:56:36Z</dim:field>
+<dim:field element="date" qualifier="issued" language="" mdschema="dc">2010-07-20</dim:field>
+<dim:field element="identifier" language="" mdschema="dc">http://www.sharegeo.ac.uk/bitstream/handle/10672/50/Regions.zip?sequence=1</dim:field>
+<dim:field element="identifier" qualifier="uri" language="" mdschema="dc">http://hdl.handle.net/10672/50</dim:field>
+<dim:field element="description" language="en" mdschema="dc">The Regions were created from Digimap datasets downloaded from Boundary Download of "County" Boundaries and the "District Borough Unitary Authority" boundaries". These were loaded into ArcMap as Shape files and using the map at http://www.gos.gov.uk/common/docs/239408/442543 (which is accessed from http://www.gos.gov.uk/aboutusnat/) as the guide the Regions were identified and merged together from individual Counties, Unitary Authorites and Metropoliatain Districts. The Revision Date of the OS Boundary-Line data is April 2008.</dim:field>
+<dim:field element="description" qualifier="abstract" language="en" mdschema="dc">Government Office (GO) Regions in Shape format derived from OS Boundary-Line data.</dim:field>
+<dim:field element="format" language="en" mdschema="dc">ESRI Shapefile</dim:field>
+<dim:field element="language" qualifier="iso" language="en" mdschema="dc">en</dim:field>
+<dim:field element="rights" qualifier="uri" language="en" mdschema="dc">This data is made available under the Public Domain Dedication and License v1.0 whose full text can be found at http://www.opendatacommons.org/licenses/pddl/1.0/</dim:field>
+<dim:field element="subject" language="en" mdschema="dc">government</dim:field>
+<dim:field element="subject" qualifier="classification" language="en" mdschema="dc">Boundaries</dim:field>
+<dim:field element="subject" qualifier="classification" language="en" mdschema="dc">Structure</dim:field>
+<dim:field element="title" language="en" mdschema="dc">English Government Office Network Regions (GOR)</dim:field>
+<dim:field element="type" language="en" mdschema="dc">GIS vector data</dim:field>
+</dim:dim>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<mets:fileSec>
+<mets:fileGrp USE="CONTENT">
+<mets:file CHECKSUMTYPE="MD5" GROUPID="group_file_107" ID="file_107" MIMETYPE="application/zip" SIZE="3277970" CHECKSUM="45c9ba0cfdc0a5708cca39416e6140c1">
+<mets:FLocat LOCTYPE="URL" xlink:title="Regions.zip" xlink:type="locator" xlink:href="/bitstream/handle/10672/50/Regions.zip?sequence=1"/>
+</mets:file>
+</mets:fileGrp>
+<mets:fileGrp USE="LICENSE">
+<mets:file CHECKSUMTYPE="MD5" GROUPID="group_file_108" ID="file_108" MIMETYPE="text/plain; charset=utf-8" SIZE="127" CHECKSUM="44d9ed4f6902860fbb92bf26df40fc3b">
+<mets:FLocat LOCTYPE="URL" xlink:title="license.txt" xlink:type="locator" xlink:href="/bitstream/handle/10672/50/license.txt?sequence=2"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileSec>
+<mets:structMap LABEL="DSpace" TYPE="LOGICAL">
+<mets:div DMDID="dmd_1" TYPE="DSpace Item">
+<mets:div ID="div_2" TYPE="DSpace Content Bitstream">
+<mets:fptr FILEID="file_107"/>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:METS>
